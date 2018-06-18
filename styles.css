@@ -1,0 +1,449 @@
+@media (max-width: 800px) and (-webkit-device-pixel-ratio : 2){
+  .body {
+      margin: 0px;
+      padding: 0px;
+      text-align: justify;
+      /*font-stretch: extra-expanded;*/
+      font-family: sans-serif;
+      margin-top: 0px;
+  }
+  .top {
+      align-content: center;
+      text-align: center;
+      font-size: 1.6em;
+
+  }
+  .top h1{
+    margin: 200px 0px 0px 0px;
+  }
+  a{
+      text-decoration: none;
+      color:black;
+  }
+  a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+
+  .headline {
+      text-align: center;
+      font-size: .75em;
+  }
+  .headline h2 {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .menu {
+      /*display:grid;*/
+      float:center;
+      font-size:2em;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      margin-top:-35px;
+      z-index: 1;
+  }
+  .link {
+    display:grid;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    margin-top: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    grid-auto-rows: auto;
+    grid-auto-flow: row dense;
+    padding: 0px 10px 10px 10px;
+  }
+  main a{
+    text-decoration: none;
+    color:black;
+  }
+  main a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+  .mainImage{
+    max-height:300px;
+    max-width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+
+  .link a{
+      text-decoration: none;
+      color:black;
+  }
+  .link a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px
+  }
+  .button {
+      background-color: white;
+      border-bottom: : 1px solid black;
+      color: white;
+      padding: 0px 32px;
+      text-align: right;
+      text-decoration: none;
+      display: inline-block;
+      /*border-radius: 8px;*/
+      margin:0px;
+      /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);*/
+  }
+  .tile {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    width: 175px;
+    height: 175px;
+    border-radius: 8px;
+    padding: 5px 0px 0px 0px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  .tile h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 5px 10px 5px;
+  }
+  .description img{
+    width: 100%;
+    height: auto;
+  }
+
+  .a {
+    background-image: url('/arrow.png');
+
+  }
+  .b {
+    background-image: url('/cloud.png');
+  }
+  .c {
+    background-image: url('/star.png');
+  }
+  .d {
+    background-image: url('/lightning.png');
+  }
+  .e {
+    background-image: url('/heart.png');
+  }
+  .f {
+    background-image: url('/triangle.png');
+  }
+  .g {
+    background-image: url('/lightning.png');
+  }
+  .h {
+    background-image: url('/heart.png');
+  }
+  .i {
+    background-image: url('/triangle.png');
+  }
+
+  .tool {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: auto;
+  }
+
+  .tools {
+    display:inline-block;;
+    /*font-family: Poppins;*/
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4a4a4a;
+    position:relative;;
+    bottom: 0px;
+    padding:0px;
+    margin:0px;
+  }
+  #descriptionA .button {
+      background-color: white;
+      border: 2px solid black;
+      color: white;
+      padding: 5px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 8px;
+      margin:1px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  }
+}
+@media (min-width: 801px) {
+  .body {
+      margin: 0px;
+      padding: 0px;
+      text-align: justify;
+      font-stretch: extra-expanded;
+      font-family: sans-serif;
+  }
+  .top {
+      align-content: center;
+      text-align: center;
+      font-size: 2.5em;
+  }
+  .top h1{
+    margin: 100px 0px 0px 0px;
+  }
+  a{
+      text-decoration: none;
+      color:black;
+  }
+  a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+
+  .headline {
+      text-align: center;
+      font-size: 1.3em;
+      position: static;
+  }
+  .headline h2 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .menu {
+      float:center;
+      font-size:2em;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      margin-top:-35px;
+
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+    margin-top: 40px;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    grid-auto-rows: auto;
+    grid-auto-flow: row dense;
+    padding: 0px 10px 10px 10px;
+  }
+  main a{
+    text-decoration: none;
+    color:black;
+  }
+  main a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+  .mainImage{
+    max-height:500px;
+    max-width:500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #descriptionA {
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+  }
+
+
+  .link a{
+      text-decoration: none;
+      color:black;
+  }
+  .link a:hover{
+      font-weight:bold;
+      text-decoration:none;
+  }
+  img{
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px
+  }
+  .button {
+      background-color: white;
+      /*border: 2px solid black;*/
+      color: white;
+      padding: 8px 18px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      /*border-radius: 8px;
+      margin:1px;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);*/
+      margin:-5px;
+  }
+
+  .button p{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  .tile {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    padding: 5px 0px 0px 0px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  }
+  .tile h2 {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 5px 10px 5px;
+  }
+  .description img{
+    width: 100%;
+    height: auto;
+  }
+
+  .a {
+    background-image: url('/arrow.png');
+
+  }
+  .b {
+    background-image: url('/cloud.png');
+  }
+  .c {
+    background-image: url('/star.png');
+  }
+  .d {
+    background-image: url('/lightning.png');
+  }
+  .e {
+    background-image: url('/heart.png');
+  }
+  .f {
+    background-image: url('/triangle.png');
+  }
+  .g {
+    background-image: url('/lightning.png');
+  }
+  .h {
+    background-image: url('/heart.png');
+  }
+  .i {
+    background-image: url('/triangle.png');
+  }
+
+  .tool {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 20px;
+    height: auto;
+  }
+  .tools {
+    display: inline-block;
+    /*font-family: Poppins;*/
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #4a4a4a;
+    position: relative;
+    bottom: 5px;
+    padding:0px;
+    margin:0px;
+  }
+  .skill {
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 200px;
+    margin:-2px;
+    /*align-content: center;
+    align-items: center;*/
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .skilla, .skillb {
+    height: 10em;
+    width: 10em;
+    border-radius: 10em;
+    background-color: red;
+  }
+  .skillc, .skilld {
+    height: 9em;
+    width: 9em;
+    border-radius: 9em;
+    background-color: blue;
+  }
+  .skille, .skillf {
+    height: 8em;
+    width: 8em;
+    border-radius: 8em;
+    background-color: green;
+  }
+  .skillg, .skillh {
+    height: 7em;
+    width: 7em;
+    border-radius: 7em;
+    background-color: magenta;
+  }
+  .skilli, .skillj {
+    height: 6em;
+    width: 6em;
+    border-radius: 6em;
+    background-color: yellow;
+  }
+  .skillk, .skilll {
+    height: 5em;
+    width: 5em;
+    border-radius: 5em;
+    background-color: orange;
+  }
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+
+
+/* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltip p{
+    color: white;
+  }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+}
